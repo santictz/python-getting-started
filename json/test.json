@@ -1,0 +1,15 @@
+{
+    "request-id": 5846615,
+    "color":
+        {
+            "dominantColorBackground": "white",
+            "dominantColorForeground": "white"
+        },
+    "description": 
+        {
+            "tags":
+                ["bear", "polar", "animal"],
+            "captions": 
+                [{"text": "a large bear"}]
+        }
+}
