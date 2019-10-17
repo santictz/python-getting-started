@@ -1,0 +1,2 @@
+# Microsoft Python Beginner Tutorial
+This code was made following the [Microsoft Python video tutorial](https://channel9.msdn.com/Series/Intro-to-Python-Development?WT.mc_id=python-c9-niner) by Santiago Cortez on October 2019.
