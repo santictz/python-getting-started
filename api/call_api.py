@@ -1,11 +1,15 @@
 #Use the request library to simplify making a REST API call from Python
 import pip._vendor.requests
 
+from dotenv import load_dotenv
+load_dotenv()
+import os
+
 # We will need the json library to read the data passed back
 # by the web service
 import json
 # We need the key to access our Computer Vision Service
-SUSCRIPTION_KEY = '2e97d095564847e3a6954add736ad1a3'
+SUSCRIPTION_KEY = os.getenv('SUSCRIPTION_KEY')
 # We need the address of our Computer Vision Service
 vision_service_address = 'https://brazilsouth.api.cognitive.microsoft.com/vision/v1.0/'
 # Add the name of the function we want to call to the address
